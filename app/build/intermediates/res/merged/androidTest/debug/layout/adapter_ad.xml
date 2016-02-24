@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/home_banner_01" />
+
+</LinearLayout><!-- From: file:/C:/Users/Administrator/Desktop/LFrameLib1/app/src/main/res/layout/adapter_ad.xml --><!-- From: file:/C:/Users/Administrator/Desktop/LFrameLib1/app/build/intermediates/bundles/debug/res/layout/adapter_ad.xml -->

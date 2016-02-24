@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="common_titlebar_color">#FF0000</color>
+      <color name="common_activity_bg_color">#F5F6F6</color>
+</resources>

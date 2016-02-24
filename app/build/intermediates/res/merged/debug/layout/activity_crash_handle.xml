@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_activity_bg_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/common_margin_board"
+            android:paddingLeft="@dimen/common_margin_board"
+            android:paddingRight="@dimen/common_margin_board"
+            android:paddingTop="@dimen/common_margin_board" >
+
+            <ImageView
+                android:id="@+id/iv_crash_handler_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:src="@drawable/crash_handler_logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/crash_handler_message"
+                android:textSize="@dimen/sp_16"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_crash_handler_restart"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="@dimen/common_margin_board"
+                    android:layout_marginRight="@dimen/common_margin_board"
+                    android:background="#D34A59"
+                    android:text="@string/crash_handler_close_app"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/btn_crash_handler_upload_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="@dimen/common_margin_board"
+                    android:layout_marginRight="@dimen/common_margin_board"
+                    android:layout_marginTop="10dp"
+                    android:background="#D34A59" 
+                    android:visibility="gone"
+                    android:text="@string/crash_handler_upload_info"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/btn_crash_handler_deatail_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="@dimen/common_margin_board"
+                    android:layout_marginRight="@dimen/common_margin_board"
+                    android:layout_marginTop="10dp"
+                    android:background="#D34A59"
+                    android:text="@string/crash_handler_check_error"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/C:/Users/Administrator/Desktop/LFrameLib1/app/src/main/res/layout/activity_crash_handle.xml -->
