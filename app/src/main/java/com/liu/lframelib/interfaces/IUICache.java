@@ -5,7 +5,7 @@ import android.view.View;
 /**
  * 需要缓存的UI界面
  * 
- * @param <T> 缓存的实体类
+ * @param <T> 缓存的实体类aa
  */
 public interface IUICache<T> {
 	/**

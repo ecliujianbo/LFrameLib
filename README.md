@@ -15,14 +15,16 @@
   有一个加载数据中的loading页面  
   
 ##Utils
-- **BitmapUtils**  
+- **BitmapUtils**
 - **DateUtils**  
 - **LogUtils**  
 - **PhoneUtils**  
 - **ToastUtils**
-- **TttpUtils**  
+- **HttpUtils**
+- **ListDataParse**
+    解析列表数据，及是否有更多数据
 ##Net
-使用的是volley.  
+  联网模块使用的是volley.
 
 ##Widget
 - **editText**  
