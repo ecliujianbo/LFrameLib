@@ -3,7 +3,8 @@
 
     <!-- loading view attached -->
     <item name="loading_root_view" type="id"/>
-
+     <!--loading activity content view-->
+    <item name="loading_content_view" type="id"/>
     
     
     
